@@ -1,0 +1,80 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.countdown {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#timer {
+    font-size: 36px;
+}
+
+
+
+<!-- Certifications Section -->
+<section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+        <li><a href="certification_links/it_foundations.pdf" target="_blank">IT Foundations</a></li>
+        <li><a href="certification_links/networking_fundamentals.pdf" target="_blank">Networking Fundamentals</a></li>
+        <!-- Add more certifications with links as needed -->
+    </ul>
+</section>
+
+
+.contact-me {
+    text-align: center;
+}
+
+form {
+    display: grid;
+    grid-gap: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+label {
+    font-size: 18px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
