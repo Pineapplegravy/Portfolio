@@ -1,3 +1,10 @@
+const hamburger = document.getElementById('hamburger');
+const menu = document.querySelector('.menu');
+
+hamburger.addEventListener('click', () => {
+    menu.classList.toggle('show');
+});
+
 // Set the date we're counting down to
 var countDownDate = new Date("Feb 15, 2024 14:00:00").getTime();
 
