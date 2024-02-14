@@ -5,6 +5,23 @@ body {
     margin: 0;
     padding: 0;
 }
+img {
+    display:block;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+.header {
+    background-image: url('./image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
 
 .container {
     max-width: 800px;
@@ -21,18 +38,43 @@ body {
     font-size: 36px;
 }
 
+.AboutMeSection {
+    font-size: larger;
+    max-width: 500px;
+    font-weight: bold;
+    background-color: #000000;
+    color: #f2f2f2;
+}
+
+.flex-container14 {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    background-color: Black
+   ;
+  }
+  
+  .flex-container14 > div {
+    background-color: #000000;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    max-width: 200px;
+  }
 
 
-<!-- Certifications Section -->
-<section id="certifications">
-    <h2>Certifications</h2>
-    <ul>
-        <li><a href="certification_links/it_foundations.pdf" target="_blank">IT Foundations</a></li>
-        <li><a href="certification_links/networking_fundamentals.pdf" target="_blank">Networking Fundamentals</a></li>
-        <!-- Add more certifications with links as needed -->
-    </ul>
-</section>
+.certs-container {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 45px;
 
+}
+
+.certs-container .image-container {
+    width:30%;
+}
 
 .contact-me {
     text-align: center;
@@ -66,8 +108,6 @@ input[type="submit"] {
     padding: 10px;
     font-size: 18px;
 }
-
-
 
 footer {
     background-color: #333;
