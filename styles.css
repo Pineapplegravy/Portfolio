@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: black;
     color: white;
@@ -19,6 +23,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
 }
 
 .logo {
@@ -92,10 +98,10 @@ ul {
 }
 
 .AboutMeSection {
-    font-size: larger;
+    font-size: xx-large;
     max-width: 500px;
-    font-weight: bold;
-    background-color: #000000;
+    font-weight: bolder;
+    /* background-color: #000000; */
     color: #f2f2f2;
 }
 
@@ -129,8 +135,32 @@ ul {
     width:30%;
 }
 
+.projects {
+    font-weight: 30px;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+/* stuff in the contact section including the submit button */
+.contact {
+    display: flex;
+    justify-content: center;
+    padding: 0 100px;
+    font-weight: 30px;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.contact-text, .contact-me {
+    width: 50%;
+}
+
 .contact-me {
     text-align: center;
+    font-weight: 30px;
+    font-size: 30px;
+    line-height: 45px;
+
 }
 
 form {

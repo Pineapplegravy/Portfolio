@@ -3,10 +3,11 @@ const menu = document.querySelector('.menu');
 
 hamburger.addEventListener('click', () => {
     menu.classList.toggle('show');
+    menu.classList.contains('sticky');
 });
 
 // Set the date we're counting down to
-var countDownDate = new Date("Feb 15, 2024 14:00:00").getTime();
+var countDownDate = new Date("Feb 16, 2024 14:00:00").getTime();
 
 // Update the countdown every 1 second
 var x = setInterval(function() {
@@ -29,6 +30,6 @@ var x = setInterval(function() {
     // If the countdown is over, display a message
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("timer").innerHTML = "EXPIRED";
+        document.getElementById("timer").innerHTML = "Congratulations";
     }
 }, 1000);

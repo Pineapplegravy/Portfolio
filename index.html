@@ -6,14 +6,17 @@
     <link rel="stylesheet" href="./styles.css">
     <title>Portfolio</title>
 </head>
+
 <body>
+    <header>
     <div class="logo"></div>
     <nav class="navbar">
         <ul class="menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact-me">Contact</a></li>
         </ul>
         <div class="hamburger" id="hamburger">
             <div class="line"></div>
@@ -45,7 +48,7 @@
     </section>
 </div>
 <!-- End section header -->
-<section>
+<section id="skills">
     <h2>Skills</h2>
         <!-- Add more skills  -->
         <div class="flex-container14">
@@ -60,13 +63,14 @@
             <div><img src="./icons/discord_icon.png" alt="Discord logo"></div>
             <div><img src="./icons/web design_icon.png" alt="Web Design logo"></div>
             <div><img src="./icons/internet_connection_network_icon.png" alt="Internet Help logo"></div>
-            <div><img src="./icons/tiktok_logo.png" alt="Tiktok logo"></div>
-            <div><img src="./icons/android_logo_icon.png" alt="Android logo"></div>
+            <!-- <div><img src="./icons/tiktok_logo.png" alt="Tiktok logo"></div> -->
+            <!-- <div><img src="./icons/android_logo_icon.png" alt="Android logo"></div> -->
            
         </div>
 </section>
+<div>
 
-<section>
+<section id="projects" class="projects">
     <h2>Projects</h2>
     <ul>
         <li>
@@ -80,22 +84,7 @@
         <!-- Add more projects as needed -->
     </ul>
 </section>
-
-
-<!-- Other sections of your portfolio -->
-<section>
-    <h2>Get In Touch</h2>
-    7655 Edmonds Street
-    Burnaby, British Columbia, Canada
-    808-800-0612
-    myemailisthecoolest@gmail.com
-    <p>Email: <a href="mailto:myemailisthecoolest@gmail.com"target="_blank"rel="noopener noreferrer">myemailisthecoolest@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/lhasa-lera-314159arel"target="_blank"rel="noopener noreferrer">www.linkedin.com/lhasa-lerat</a></p>
-    <p>GitHub: <a href="https://www.github.com/Pineapplegravy/Portfolio"target="_blank"rel="noopener noreferrer">github.com/Lhasa/Portfolio</a></p>
-    <p>Resume:<a href="./resume.pdf" target="_blank"rel="noopener noreferrer">Resume</a></p>
-</section>
-
-
+</div>
 <!-- Certifications Section -->
 <section id="certifications">
     
@@ -122,22 +111,35 @@
 </section>
 
 
-        <div class="contact-me">
-            <h2>Contact Me </h2>
-            <form action="#" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-
-                <input type="submit" value="Submit">
-            </form>
-        </div>
+       
+        <!-- Other sections of your portfolio -->
+<section id="contact-me"class="contact">
+    <div class="contact-text">
+        <h2>Get In Touch</h2>
+       <p>7655 Edmonds Street</p>
+       <p>Burnaby, British Columbia, Canada</p>
+        <p>808-800-0612</p>
+        <p><a href="mailto:myemailisthecoolest@gmail.com"target="_blank"rel="noopener noreferrer">myemailisthecoolest@gmail.com</a></p>
+        <p><a href="https://www.linkedin.com/in/lhasa-lera-314159arel"target="_blank"rel="noopener noreferrer">www.linkedin.com/lhasa-lerat</a></p>
+        <p><a href="https://www.github.com/Pineapplegravy/Portfolio"target="_blank"rel="noopener noreferrer">github.com/Lhasa/Portfolio</a></p>
+        <p><a href="./resume.pdf" target="_blank"rel="noopener noreferrer">Resume</a></p>
     </div>
+    <div class="contact-me" >
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="Your Semail" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+</section>
+
 
     <footer>
         <p>&copy; 2024 Lhasa Lerat. All rights reserved.</p>
