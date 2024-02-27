@@ -7,7 +7,7 @@ hamburger.addEventListener('click', () => {
 });
 
 // Set the date we're counting down to
-var countDownDate = new Date("Feb 16, 2024 14:00:00").getTime();
+var countDownDate = new Date("Feb 26, 2024 14:13:00").getTime();
 
 // Update the countdown every 1 second
 var x = setInterval(function() {
